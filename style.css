@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+}
