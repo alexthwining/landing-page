@@ -4,20 +4,62 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
 .header {
     background-color: #1F2937;
-    font-size: 24px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     padding-left: 250px;
     padding-right: 250px;
+}
 
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.link-text, .hero-sec {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.link-text {
+    display: flex;
+    gap: 20px;
 }
 
 .intro {
     background-color: #1F2937;
     display: flex;
-    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 250px;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-right {
+    display: flex;
+
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.img1 {
+    max-height: 200px;
+    max-width: 200px;
+
 }
